@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Titre de l'onglet</title>
+    <link rel="stylesheet" href="assets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header id="header">
+
+    <div class="site-brand">
+        <img class="site-logo" width="512" height="512" src="logo-nantes.png" alt="Logo Nantes">
+        <span>Nantes</span>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="about.html">A propos</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section id="home-hero">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+        </div>
+    </section>
+
+    <section id="home-form">
+        <div class="container">
+
+            <form action="?" method="POST">
+
+                <p>
+                    <label for="first_name" class="required">Prénom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="first_name"
+                           name="first_name"
+                           value=""
+                           placeholder="Jean"
+                           required
+                    >
+                </p>
+
+                <p>
+                    <label for="last_name" class="required">Nom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="last_name"
+                           name="last_name"
+                           value=""
+                           placeholder="Bon"
+                           required
+                    >
+                </p>
+
+                <p>
+                    <label for="email" class="required">Email</label>
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           name="email"
+                           value=""
+                           placeholder="jean.bon@mail.com"
+                           required
+                    >
+                </p>
+
+                <p>
+                    <label for="subject" class="required">Sujet</label>
+                    <input type="text"
+                           class="form-control"
+                           id="subject"
+                           name="subject"
+                           value=""
+                           placeholder="Demande de devis"
+                           required
+                    >
+                </p>
+
+                <p>
+                    <label for="body" class="required">Message</label>
+                    <textarea class="form-control"
+                              id="body"
+                              name="body"
+                              rows="5"
+                              required
+                    ></textarea>
+                </p>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<!--
+<footer>
+    Copyright 2021 - PSN 1
+</footer>
+-->
+
+</body>
+</html>

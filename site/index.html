@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Titre de l'onglet</title>
+    <link rel="stylesheet" href="assets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+</head>
+<body>
+
+<header id="header">
+
+    <div class="site-brand">
+        <img class="site-logo" width="512" height="512" src="logo-nantes.png" alt="Logo Nantes">
+        <span>Nantes</span>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="about.html">A propos</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section id="home-hero">
+        <div class="container">
+            <h1>Découvrez la ville de Nantes</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda beatae eligendi quae vel!
+                Ab animi autem beatae commodi dicta dolorum exercitationem explicabo facilis labore laboriosam libero,
+                magnam molestias neque nesciunt non, placeat porro possimus, quo repellendus tenetur voluptate
+                voluptates
+                voluptatum? Ducimus error harum ipsum labore molestias quo rem totam?</p>
+            <a href="https://google.com" target="_blank" rel="noopener" class="btn btn-outline-white">Je découvre</a>
+        </div>
+    </section>
+
+
+    <section id="home-cards">
+        <div class="container">
+
+            <div class="cards-wrapper">
+                <div class="card">
+                    <img width="512" height="512" src="logo-nantes.png" alt="">
+                    <span>Mon premier titre</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam minus nisi, totam
+                        ullam
+                        velit.</p>
+                </div>
+
+                <div class="card">
+                    <img width="512" height="512" src="logo-nantes.png" alt="">
+                    <span>Mon premier titre</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam minus nisi, totam
+                        ullam
+                        velit.</p>
+                </div>
+
+                <div class="card">
+                    <img width="512" height="512" src="logo-nantes.png" alt="">
+                    <span>Mon premier titre</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque magnam minus nisi, totam
+                        ullam
+                        velit.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="home-presentation">
+        <div class="container">
+            <h2>La Beaujoire</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur, debitis distinctio eius
+                et ex expedita facilis iste natus neque nulla optio perferendis quae, rem similique sunt, tempore
+                temporibus voluptate.</p>
+            <a href="" class="btn btn-primary">Réserver</a>
+            <a href="" class="btn btn-outline-primary">Réserver</a>
+
+        </div>
+    </section>
+
+    <section id="home-form">
+        <div class="container">
+
+            <h2>Mon super formulaire</h2>
+
+            <form action="?" method="POST" enctype="multipart/form-data">
+
+                <p>
+                    <label for="first_name">Prénom</label>
+                    <input type="text"
+                           id="first_name"
+                           name="first_name"
+                           placeholder="John"
+                           value=""
+                           minlength="2"
+                           maxlength="255"
+                           class="form-control"
+                           required
+                    />
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </p>
+
+                <p>
+                    <label for="phone_number">Téléphone</label>
+                    <input type="tel" id="phone_number" name="phone_number" class="form-control">
+                </p>
+
+                <p>
+                    <label for="number">Nombre</label>
+                    <input type="number" id="number" name="number" min="0" max="1000" step="25" class="form-control">
+                </p>
+
+                <p>
+                    <label for="range">Range</label>
+                    <input type="range" id="range" name="range" min="0" max="200" step="25">
+                </p>
+
+                <p>
+                    <label for="color">Couleur</label>
+                    <input type="color" id="color" name="color">
+                </p>
+
+                <p>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" class="form-control">
+                </p>
+
+                <p>
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" class="form-control">
+                </p>
+
+                <p>
+                    <label for="datetime">Datetime</label>
+                    <input type="datetime-local" id="datetime" name="datetime" class="form-control">
+                </p>
+
+                <p>
+                    <label for="textarea">Textarea</label>
+                    <textarea name="textarea" id="textarea" rows="5" class="form-control"></textarea>
+                </p>
+
+                <p>
+                    <label for="select">Select</label>
+                    <select id="select" name="select">
+                        <option selected disabled>Choose an option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </p>
+
+                <p>
+                <fieldset>
+                    <legend>Ma question ?</legend>
+                    <input type="checkbox" id="check-1" name="checkbox">
+                    <label for="check-1">Check 1</label>
+
+                    <input type="checkbox" id="check-2" name="checkbox">
+                    <label for="check-2">Check 2</label>
+
+                    <input type="checkbox" id="check-3" name="checkbox">
+                    <label for="check-3">Check 3</label>
+                </fieldset>
+                </p>
+
+                <p>
+                <fieldset>
+                    <legend>Ma question ?</legend>
+                    <input type="radio" id="radio-1" name="radio">
+                    <label for="radio-1">Radio 1</label>
+
+                    <input type="radio" id="radio-2" name="radio">
+                    <label for="radio-2">Radio 2</label>
+
+                    <input type="radio" id="radio-3" name="radio">
+                    <label for="radio-3">Radio 3</label>
+                </fieldset>
+                </p>
+
+                <p>
+                    <label for="file">Fichier</label>
+                    <input type="file" id="file" name="file" accept="image/gif" multiple>
+                </p>
+
+
+                <!-- <input type="submit" value="Envoyer" /> -->
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer id="footer">
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur optio quibusdam similique. Animi
+            assumenda ea hic repellat sunt. Aspernatur, atque cum dolore dolorum ea eaque exercitationem expedita iste
+            itaque labore nesciunt nisi nobis provident, quam quis sunt suscipit tempore vero vitae voluptate. Non, quo
+            ullam.</p>
+        <ul class="social-links">
+            <li>
+                <a href="#" target="_blank" rel="noopener">
+                    <span class="visually-hidden"> Instagram</span>
+                    <span class="fab fa-instagram"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="noopener">
+                    <span class="visually-hidden"> Twiter</span>
+                    <span class="fab fa-twitter"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="noopener">
+                    <span class="visually-hidden"> Facebook</span>
+                    <span class="fab fa-facebook"></span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+</body>
+</html>

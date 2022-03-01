@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root {
+    --primary: #2C75FF
+}
+:root {
+    --second: black
+
+}
+/*-----Nav--------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+header {
+    background: linear-gradient(#000096,#272755, black);
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+header nav .right {
+    display: flex;
+    align-items: center;
+}
+header nav .right .about {
+    margin: 0 15px 0 0;
+    color: white;
+}
+header nav .right .contact:hover {
+    color: inherit;
+}
+header nav .right .contact {
+    padding: 5px 15px;
+    font-size: 1rem;
+    border: 1px solid var(--primary);
+    background-color: inherit;
+    color: var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
+}
+header nav .right .contact:hover {
+    color: inherit;
+    background-color: var(--primary);
+}
+header nav .right .about:hover {
+    color: var(--second);
+}
+@media screen and (max-width: 800px) {
+    header nav .right .about {
+        display: none;
+    }
+}
+
+.logo {
+    width: 40%;
+    display: block;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+img:hover {
+    transform:scale(1.2);
+}
+/*------Accueil-----------*/
+.container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.accueil-first {
+    padding: 30px 5%;
+    background: url("https://img.freepik.com/photos-gratuite/jeune-homme-remise-forme-studio_7502-5005.jpg?size=626&ext=jpg&ga=GA1.2.1720694697.1619308800") no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.accueil-first .texte h2 {
+    margin: 0;
+    font-size: 4vw;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.accueil-first .texte p {
+    font-weight: 300;
+    color: white;
+    font-size: 2vw;
+}
+
+/*----programe1*/
+
+.programme1 {
+    background-color: var(--primary);
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.programme1 .right .image {
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    position: inherit;
+}
+.programme1 .left .image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.programme1 .left .image:hover {
+    filter: brightness(90%);
+}
+.programme1 .right .image:hover {
+    filter: brightness(90%);
+}
+.programme1 .left p {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top :100px;
+    float: right;
+    font-size: 25px;
+}
+
+.programme1 .right p {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top :100px;
+    float: left;
+    font-size: 25px;
+}
+.programme1 .h3 {
+    text-align: center;
+}
+
+
+/*------------programme 2--------------*/
+
+.programme2 {
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.programme2 .right .image {
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.programme2 .right .video {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: left;
+
+}
+.programme2 .left .image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: left;
+}
+.programme2 .left .image:hover {
+    filter: brightness(90%);
+}
+.programme2 .right .image:hover {
+    filter: brightness(90%);
+}
+
+.programme2 .left .image:hover {
+    filter: brightness(90%);
+}
+.programme2 .left p {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top :100px;
+    float: right;
+    font-size: 25px;
+}
+@media screen and (max-width: 1200px){
+    .programme2 .left p {
+        width: 50%;
+    }
+    .programme2 .left .image {
+        padding: 0;
+        width: 50%;
+    }
+    .programme2 .right p {
+        width: 50%;
+    }
+    .programme2 .right .image {
+        padding: 0;
+        width: 50%;
+    }
+}
+
+.programme2 .right p {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top :100px;
+    float: left;
+    font-size: 25px;
+}
+/*---------Tableau-------*/
+
+.table {
+    background-color: var(--second);
+    border-radius: 1rem;
+    padding: 100px;
+    font-size: 20px;
+    margin: auto;
+}
+.result {
+    background-color: var(--primary);
+    margin: -20px;
+    padding: 20px 0;
+}
+.result h4 {
+    margin: auto;
+    text-align: center;
+}
+.result {
+    text-align: center;
+    font-size: 30px;
+}
+.prenom {
+    padding: 0 10px;
+}
+.nom {
+    padding: 0 10px;
+}
+.age {
+    padding: 0 10px;
+}
+.objectif{
+    padding: 0 10px;
+}
+.perte {
+    padding: 0 10px;
+}
+.result .table tr:hover td {
+    background-color: var(--primary);
+}
+/*-----Contact--------*/
+#home-hero {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: var(--second);
+
+}
+#contact{
+    background-color: var(--second);
+}
+@media screen and (min-width: 800px) {
+
+    #home-form label.required:after{
+        content: ' *';
+        color: red;
+    }
+
+}
+#home-form {
+    text-align: left;
+    padding: 0;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px 1px;
+    background-color: var(--primary);
+    display: block;
+}
+.form-control {
+    border: 1px solid var(--second);
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #e5e3e3;
+    margin: 8px 10px 10px 10px;
+}
+@media screen and (max-width: 1200px) {
+    #home-form {
+        width: 20%;
+    }
+    .form-control {
+        width: 70%;
+    }
+    .fond-contact {
+        background: url("https://images.prismic.io/the-ringio/fdfd06ac-ff88-4695-bd40-eff036f48b3e_salle_de_sport_1.jpg?auto=compress,format")no-repeat center center;
+        background-size: cover;
+        height: 150vh;
+    }
+}
+.required {
+    margin: 10px;
+}
+textarea.form-control {
+    resize: vertical;
+}
+.fond-contact {
+    background: url("https://images.prismic.io/the-ringio/fdfd06ac-ff88-4695-bd40-eff036f48b3e_salle_de_sport_1.jpg?auto=compress,format")no-repeat center center;
+    background-size: cover;
+    height: 130vh;
+
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-radius: 1rem;
+    color:#fff;
+    padding: 10px;
+    border-color: var(--second);
+    margin: 0 0 10px 10px;
+}
+
+/*--------------About-------------*/
+#about {
+    background: url("http://emmafitnessgoal.com/wp-content/uploads/2020/02/13.jpg")no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    padding: 100px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+.deco {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    float: right;
+    font-size: 25px;
+    color: white;
+}
+.deco h1 {
+    text-align: center;
+    width: 100%;
+}
+/*------footer--------*/
+footer #footer {
+    background-color: var(--second);
+    padding: -10px 0;
+    margin: 0;
+}
+footer #footer .logo-bis {
+    width: 7%;
+    margin: 0 500px;
+}
+footer #footer-bis {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1px;
+}

@@ -1,0 +1,38 @@
+#home-form {
+  padding: 100px 0;
+}
+
+#home-form h2 {
+  text-align: center;
+}
+
+#home-form form {
+  max-width: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 1200px) {
+  #home-form
+  label.required:after {
+    content: '*';
+    color: red;
+  }
+
+  .form-control {
+    border: 1px solid #2e2e2e;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+}

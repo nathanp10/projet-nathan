@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscululu</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+
+    <nav>
+        <a href="index.html">
+            <img class="logo" src="logomuscu.png" alt="Muscululu">
+        </a>
+        <h1>Muscululu</h1>
+        <div class="right">
+            <a class="about" href="about.html"> A Propos</a>
+            <a class="contact" href="contact.html">Nous contacter</a>
+        </div>
+
+    </nav>
+</header>
+
+<main class="fond-contact">
+
+    <section id="home-hero">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+        </div>
+    </section>
+
+    <section id="home-form">
+        <div class="container">
+
+            <form action="?" method="POST">
+
+                <p>
+                    <label for="first_name" class="required">Prénom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="first_name"
+                           name="first_name"
+                           maxlength="255"
+                           placeholder="éclaire"
+                           value=""
+                           required>
+                </p>
+
+                <p>
+                    <label for="last_name" class="required">Nom</label>
+                    <input type="text"
+                           class="form-control"
+                           id="last_name"
+                           name="last_name"
+                           maxlength="255"
+                           placeholder="Ochoco"
+                           value=""
+                           required>
+                </p>
+
+                <p>
+                    <label for="email" class="required">Email</label>
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           name="email"
+                           maxlength="255"
+                           placeholder="eclaire.ochoco@mail.com"
+                           value=""
+                           required>
+                </p>
+                <p>
+
+                    <select class="form-control">
+                        <option value="" selected disabled hidden>Quel est votre âge ?</option>
+                        <option value="valeur1">10-20 ans</option>
+                        <option value="valeur2">20-40 ans</option>
+                        <option value="valeur3">40- 60 ans et +</option>
+                    </select>
+                </p>
+
+
+
+                <p>
+                    <label for="body" class="required">Précision de votre demande</label>
+                    <textarea class="form-control"
+                              id="body"
+                              name="body"
+                              rows="6"
+                              placeholder=".............."
+                              required
+                    ></textarea>
+                </p>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <section id="footer">
+        <div class="left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
+                            rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum
+                            vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+                            href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <p>Vous pouvez aussi nous retrouver sur nos réseaux sociaux pour plus de détail.</p>
+                    <img class="logo-bis" src="logomuscu.png" alt="Muscululu">
+                </div>
+    </section>
+    <section id="footer-bis">
+        <p>copyright© 2021</p>
+    </section>
+</footer>
+
+
+</body>
+</html>

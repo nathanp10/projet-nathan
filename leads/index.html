@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/da7397688c.js" crossorigin="anonymous"></script>
+    <title>Vinci immobilier</title>
+</head>
+<body>
+<header id="header" class="mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow">
+        <div class="container-fluid m-2">
+            <img src="https://pbs.twimg.com/profile_images/1133383910384177152/XPka1ZSD_400x400.png"
+                 alt="Logo Vinci Immobilier" width="50" height="auto" class="m-2">
+            <a class="navbar-brand secondary bg-light rounded p-2" href="index.html">Vinci immobilier</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container text-center">
+        <h1>Venez à notre évènement sur la ville de deman !</h1>
+    </div>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-around">
+            <p class="bg-light shadow rounded w-25 p-3">Bienvenue a tous pour votre entrer dans la ville du futur
+                La conférence à laquelle vous vous apprêtez à vous inscrire portera donc sur la nouvelle ville du 21ème
+                siècle.
+                <br>
+                <strong>Quel seront les intervenants:</strong>
+                <br>
+                <u>Franck Bodin</u> géographe-urbaniste, ses recherches portent sur le dynamisme territorial,
+                l’aménagement durable et la co-construction du territoire.
+                <br>
+                <u>Pascaline Miannay</u> architecte certifiée Concepteur européen bâtiments passifs.
+                <br>
+                <u>Dorian Tourin-Lebret</u> Spécialiste des enjeux du dérèglement climatique
+                <br>
+                <strong>Quel seront les activités proposé:</strong>
+                <br>
+                - Conférence
+                <br>
+                - Atelier
+                <br>
+                - Stands thématique
+                <br>
+                Maintenant vous savez tout sur cette conférence c’est à vous de jouer et de finir votre inscription pour
+                pouvoir participer à la ville de vos rêves.
+                <br>
+                Vinci Immobilier vous remercie.
+            </p>
+
+
+            <form class="bg-light rounded shadow p-4 w-50 text-center" action="repForm.html">
+                <h2 class="mb-3">Inscrivez vous à notre conférence gratuite</h2>
+
+                <h3>Votre prénom</h3>
+                <input class="w-100 mb-2" type="text" name="firstname" required>
+
+                <h3>Votre nom</h3>
+                <input class="w-100 mb-2" type="text" name="lastname" required>
+
+                <h3>Votre téléphone</h3>
+                <input class="w-100 mb-2" type="phone" name="phone">
+
+                <h3>Votre mail</h3>
+                <input class="w-100 mb-2" type="mail" name="mail" required>
+
+                <h3>Votre secteur d'activitée</h3>
+                <select name="secteur" id="secteur" required class="w-100 mb-2">
+                    <option disabled selected value="">choisissez</option>
+                    <option value="un">Immobilier</option>
+                    <option value="deux">Architecte Urbain</option>
+                    <option value="trois">Architecte</option>
+                    <option value="quatre">CEO</option>
+                    <option value="cinq">Ecologie</option>
+                    <option value="six">Journaliste</option>
+                    <option value="sept">Influenceur</option>
+                    <option value="huit">Autre</option>
+                </select>
+                <div class="mt-2">
+                    <input type="checkbox" id="donnees" name="donnees" required>
+                    <label for="donnees">Acceptez vous qu'on accède aux données remplis dans ce formulaire</label>
+                </div>
+                <input type="submit" class="mt-3 btn-primary btn" value="Go vers le futur !">
+
+
+            </form>
+        </div>
+
+
+    </div>
+    <section>
+        <h3>Nos partenaires de tout les jours :</h3>
+        <div class="d-flex justify-content-around">
+            <div>
+                <h4>Vinci autoroute</h4>
+                <img src="data:image/png;base64,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"
+                     alt="Vinci autoroute">
+            </div>
+            <div>
+                <h4>OVELIA</h4>
+                <img src="https://1001residences-seniors.com/wp-content/uploads/2019/12/OVELIA-Logo-1.png" alt="OVELIA">
+            </div>
+            <div>
+                <h4>Student Factory</h4>
+                <img src="data:image/png;base64,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"
+                     alt="Student Factory">
+            </div>
+        </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer bg-primary p-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="list-group">
+                    <li class="list-group-item bg-primary border-primary"><a class="facebook text-dark"
+                                                                             href="reseaux.html"
+                                                                             style="text-decoration: none;"><i
+                            class="fa fa-facebook  p-2"></i> Notre Facebook !</a>
+                    </li>
+                    <li class="list-group-item bg-primary border-primary"><a class="twitter text-dark"
+                                                                             href="reseaux.html"
+                                                                             style="text-decoration: none;"><i
+                            class="fa fa-twitter p-2"> </i> Notre Twitter !</a></li>
+                    <li class="list-group-item bg-primary border-primary"><a class="linkedin text-dark"
+                                                                             href="reseaux.html"
+                                                                             style="text-decoration: none;"><i
+                            class="fa fa-linkedin p-2"></i> Notre Linkedin !</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021
+                    <a href="https://www.vinci-immobilier.com/?gclid=CjwKCAiA24SPBhB0EiwAjBgkhm3QXdH08LdsBFvVFkIUn5zQwdZLMOaY-FiEoa1RZEuBJ5O0-26c4RoCb2cQAvD_BwE" color="black">Vinci
+                        Immobilier </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
